@@ -57,7 +57,7 @@ const App = () => (
             path="/new"
             element={
               <Layout>
-                <Products />
+                <NewFeatured />
               </Layout>
             }
           />
@@ -65,7 +65,7 @@ const App = () => (
             path="/men"
             element={
               <Layout>
-                <Products />
+                <Men />
               </Layout>
             }
           />
@@ -73,7 +73,7 @@ const App = () => (
             path="/women"
             element={
               <Layout>
-                <Products />
+                <Women />
               </Layout>
             }
           />
@@ -81,7 +81,7 @@ const App = () => (
             path="/kids"
             element={
               <Layout>
-                <Products />
+                <Kids />
               </Layout>
             }
           />
@@ -89,7 +89,7 @@ const App = () => (
             path="/shoes"
             element={
               <Layout>
-                <Products />
+                <Shoes />
               </Layout>
             }
           />
@@ -97,7 +97,7 @@ const App = () => (
             path="/accessories"
             element={
               <Layout>
-                <Products />
+                <Accessories />
               </Layout>
             }
           />
