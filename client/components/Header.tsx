@@ -77,10 +77,21 @@ export function Header() {
                 <Heart className="w-5 h-5" />
               </Button>
 
-              {/* Account */}
-              <Button variant="ghost" size="sm" className="hidden md:flex p-2">
-                <User className="w-5 h-5" />
-              </Button>
+                            {/* Help */}
+              <Link
+                to="/help"
+                className="hidden md:flex text-sm text-nike-grey hover:text-nike-dark transition-colors"
+              >
+                Help
+              </Link>
+
+              {/* Sign In */}
+              <Link
+                to="/login"
+                className="hidden md:flex text-sm text-nike-grey hover:text-nike-dark transition-colors"
+              >
+                Sign In
+              </Link>
 
               {/* Shopping bag */}
               <Button variant="ghost" size="sm" className="relative p-2">
