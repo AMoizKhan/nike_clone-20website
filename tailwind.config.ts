@@ -57,6 +57,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        nike: {
+          orange: "hsl(var(--nike-orange))",
+          "orange-foreground": "hsl(var(--nike-orange-foreground))",
+          grey: "hsl(var(--nike-grey))",
+          "light-grey": "hsl(var(--nike-light-grey))",
+          dark: "hsl(var(--nike-dark))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
