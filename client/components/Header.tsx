@@ -17,50 +17,10 @@ export function Header() {
     { name: "Accessories", href: "/accessories" },
   ];
 
-  return (
+    return (
     <header className="sticky top-0 z-50 bg-white border-b border-border">
-      {/* Top bar */}
-      <div className="bg-nike-light-grey">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-9 text-xs">
-            <div className="hidden md:flex space-x-4">
-              <Link
-                to="/stores"
-                className="text-nike-grey hover:text-nike-dark transition-colors"
-              >
-                Find a Store
-              </Link>
-              <span className="text-nike-grey">|</span>
-              <Link
-                to="/help"
-                className="text-nike-grey hover:text-nike-dark transition-colors"
-              >
-                Help
-              </Link>
-              <span className="text-nike-grey">|</span>
-              <Link
-                to="/join"
-                className="text-nike-grey hover:text-nike-dark transition-colors"
-              >
-                Join Us
-              </Link>
-            </div>
-            <div className="flex space-x-4">
-              <Link
-                to="/login"
-                className="text-nike-grey hover:text-nike-dark transition-colors"
-              >
-                Sign In
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Main navigation */}
-      <div className="bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
               <Link to="/" className="flex items-center">
